@@ -1,0 +1,60 @@
+{
+  "names": {
+    "default": {
+      "roman": "Chun-Li"
+    },
+    "japan": {
+      "roman": "Chun-Li",
+      "original": "チュンリー"
+    }
+  },
+  "images": {
+    "face": "chunli.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Koshuda",
+        "input": "{close}, :b: {or} :f:+[MP] {or} [HP]"
+      },
+      {
+        "name": "Ryuseiraku",
+        "input": "{inAirAndClose}, :b: {or} :f:+[MP] {or} [HP]"
+      }
+    ],
+    "{uniqueAttacks}": [
+      {
+        "name": "Soshoda",
+        "input": ":f:+[MP]"
+      },
+      {
+        "name": "Yosokyaku",
+        "input": "{inAir}, :d:+[MK] ({upTo3x})"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Hyakuretsukyaku",
+        "input": "{tapKick}"
+      },
+      {
+        "name": "Spinning Bird Kick",
+        "input": ":qcf:+[K]"
+      },
+      {
+        "name": "Hienshu",
+        "input": ":qcb:+[K]"
+      }
+    ],
+    "{superCombos}": [
+      {
+        "name": "Kikosho",
+        "input": ":qcf::qcf:+[P]"
+      },
+      {
+        "name": "Senretsukyaku",
+        "input": ":qcf::qcf:+[K]"
+      }
+    ]
+  }
+}
