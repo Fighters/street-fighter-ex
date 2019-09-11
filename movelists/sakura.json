@@ -22,12 +22,6 @@
         "input": "{close}, :b: {or} :f:+[MK] {or} [HK]"
       }
     ],
-    "{uniqueAttacks}": [
-      {
-        "name": "Flower Kick",
-        "input": ":f:+[MK]"
-      }
-    ],
     "{specialMoves}": [
       {
         "name": "Hadoken",
