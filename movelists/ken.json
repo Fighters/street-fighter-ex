@@ -26,12 +26,6 @@
         "input": "{inAirAndClose}, :b: {or} :f:+[MP] {or} [HP]"
       }
     ],
-    "{uniqueAttacks}": [
-      {
-        "name": "Inazuma Kick",
-        "input": ":f:+[MK]"
-      }
-    ],
     "{specialMoves}": [
       {
         "name": "Hadoken",
