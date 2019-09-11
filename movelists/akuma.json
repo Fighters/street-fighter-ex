@@ -1,0 +1,89 @@
+{
+  "names": {
+    "default": {
+      "roman": "Akuma"
+    },
+    "japan": {
+      "roman": "Gouki",
+      "original": "ゴウキ"
+    }
+  },
+  "images": {
+    "face": "akuma.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Shoulder Throw",
+        "input": "{close}, :b: {or} :f:+[MP] {or} [HP]"
+      },
+      {
+        "name": "Somersault Throw",
+        "input": "{close}, :b: {or} :f:+[MK]"
+      },
+      {
+        "name": "Hell Wheel",
+        "input": "{close}, :b: {or} :f:+[HK]"
+      }
+    ],
+    "{uniqueAttacks}": [
+      {
+        "name": "Senpukyaku",
+        "input": ":f:+[MK]"
+      },
+      {
+        "name": "Tenmakujinkyaku",
+        "input": "{duringForwardJump}, {atJumpApex} :d:+[MK]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Gohadoken",
+        "input": ":qcf:+[P]"
+      },
+      {
+        "name": "Shakunetsu Hadoken",
+        "input": ":hcb:+[P]"
+      },
+      {
+        "name": "Zanku Hadoken",
+        "input": "{inAir} :qcf:+[P]"
+      },
+      {
+        "name": "Goshoryuken",
+        "input": ":dp:+[P]"
+      },
+      {
+        "name": "Tatsumaki Zankukyaku",
+        "input": ":qcb:+[K] ({upTo4x})"
+      },
+      {
+        "name": "Zenpo Tenshin",
+        "input": ":qcb:+[P]"
+      },
+      {
+        "name": "Ashura Senku",
+        "input": ":dp: {or} :rdp:+[LP]+[MP]+[HP] {or} [LK]+[MK]+[HK]"
+      }
+    ],
+    "{superCombos}": [
+      {
+        "name": "Messatsu Gohado",
+        "input": ":qcb::qcb:+[P]"
+      },
+      {
+        "name": "Messatsu Goshoryu",
+        "input": ":qcf::d::df:+[P]"
+      },
+      {
+        "name": "Tenma Gozanku",
+        "input": "{inAir} :qcf::qcf:+[P]"
+      },
+      {
+        "name": "Shun Goku Satsu",
+        "input": "[LP] > [LP] > :f: > [LK] > [HP]",
+        "extraInfo": "{level3}"
+      }
+    ]
+  }
+}
