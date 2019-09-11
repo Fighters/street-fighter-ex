@@ -1,0 +1,62 @@
+{
+  "names": {
+    "default": {
+      "roman": "C. Jack"
+    },
+    "japan": {
+      "roman": "C. Jack",
+      "original": "クラッカー・ジャック"
+    }
+  },
+  "images": {
+    "face": "cjack.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Power Hunter",
+        "input": "{close}, :b: {or} :f:+[MP] {or} [HP]"
+      },
+      {
+        "name": "Power Lift Throw",
+        "input": "{close}, :b: {or} :f:+[MK] {or} [HK]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Dash Straight",
+        "input": "{charge} :b: :f:+[P]"
+      },
+      {
+        "name": "Dash Upper",
+        "input": "{charge} :b: :f:+[K]"
+      },
+      {
+        "name": "Batting Hero",
+        "input": ":hcf:+[P]"
+      },
+      {
+        "name": "Soccer Ball Kick",
+        "input": ":hcf:+[K]"
+      },
+      {
+        "name": "Final Punch",
+        "input": "{hold} [LP]+[MP]+[HP] {or} [LK]+[MK]+[HK] {then} {release}"
+      }
+    ],
+    "{superCombos}": [
+      {
+        "name": "Crazy Jack",
+        "input": "{charge} :b: :f::b::f:+[P]"
+      },
+      {
+        "name": "Raging Buffalo",
+        "input": "{charge} :b: :f::b::f:+[K]"
+      },
+      {
+        "name": "Homerun Hero",
+        "input": ":qcb::qcb:+[P]"
+      }
+    ]
+  }
+}
