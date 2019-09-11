@@ -39,7 +39,7 @@
       },
       {
         "name": "Tatsumaki Senpukyaku",
-        "input": ":qcb:+[K] ({upTo3x}; {airOK})"
+        "input": ":qcb:+[K] ({upTo3x})"
       }
     ],
     "{superCombos}": [
