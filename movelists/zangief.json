@@ -1,0 +1,74 @@
+{
+  "names": {
+    "default": {
+      "roman": "Zangief"
+    },
+    "japan": {
+      "roman": "Zangief",
+      "original": "ザンギエフ"
+    }
+  },
+  "images": {
+    "face": "zangief.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Iron Claw",
+        "input": "{close} :b: {or} :f:+[MP] {or} [HP]"
+      },
+      {
+        "name": "German Suplex",
+        "input": "{close} :b: {or} :f:+[MK] {or} [HK]"
+      },
+      {
+        "name": "Stomach Block",
+        "input": "{behindOpponent}, {close}, :b: {or} :f:+[MK] {or} [HK]"
+      }
+    ],
+    "{uniqueAttacks}": [
+      {
+        "name": "Flying Body Press",
+        "input": "{inAir}, :d:+[HP]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Double Lariat",
+        "input": "[LP]+[MP]+[HP] ({use} :b: {or} :f: {toMove})"
+      },
+      {
+        "name": "Quick Double Lariat",
+        "input": "[LK]+[MK]+[HK] ({use} :b: {or} :f: {toMove})"
+      },
+      {
+        "name": "Spinning Piledriver",
+        "input": ":360:+[P]"
+      },
+      {
+        "name": "Russian Suplex",
+        "input": ":360:+[K]"
+      }
+    ],
+    "{superCombos}": [
+      {
+        "name": "Final Atomic Buster",
+        "input": ":360::360:+[P]"
+      },
+      {
+        "name": "Final Atomic Buster Lv. 3",
+        "input": ":360::360:+[LP]+[MP]+[HP]",
+        "extraInfo": "{level3}"
+      },
+      {
+        "name": "Super Stomping",
+        "input": ":qcf::qcf:+[K]"
+      },
+      {
+        "name": "Cancel",
+        "input": ":qcb:+[K]",
+        "after": "Super Stomping"
+      }
+    ]
+  }
+}
