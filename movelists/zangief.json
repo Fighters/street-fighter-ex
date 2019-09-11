@@ -43,7 +43,7 @@
       },
       {
         "name": "Spinning Piledriver",
-        "input": ":360:+[P]"
+        "input": "{close}, :360:+[P]"
       },
       {
         "name": "Russian Suplex",
