@@ -1,0 +1,56 @@
+{
+  "names": {
+    "default": {
+      "roman": "Ryu"
+    },
+    "japan": {
+      "roman": "Ryu",
+      "original": "リュウ"
+    }
+  },
+  "images": {
+    "face": "ryu.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Shoulder Throw",
+        "input": "{close}, :b: {or} :f:+[MP] {or} [HP]"
+      },
+      {
+        "name": "Somersault Throw",
+        "input": "{close}, :b: {or} :f:+[MK] {or} [HK]"
+      }
+    ],
+    "{uniqueAttacks}": [
+      {
+        "name": "Senpukyaku",
+        "input": ":f:+[MK]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Hadoken",
+        "input": ":qcf:+[P]"
+      },
+      {
+        "name": "Shoryuken",
+        "input": ":dp:+[P]"
+      },
+      {
+        "name": "Tatsumaki Senpukyaku",
+        "input": ":qcb:+[K] ({upTo3x}; {airOK})"
+      }
+    ],
+    "{superCombos}": [
+      {
+        "name": "Shinku Hadoken",
+        "input": ":qcf::qcf:+[P]"
+      },
+      {
+        "name": "Shinku Tatsumaki Senpukyaku",
+        "input": ":qcb::qcb:+[K] ({airOK})"
+      }
+    ]
+  }
+}
