@@ -1,0 +1,64 @@
+{
+  "names": {
+    "default": {
+      "roman": "Ken"
+    },
+    "japan": {
+      "roman": "Ken",
+      "original": "ケン"
+    }
+  },
+  "images": {
+    "face": "ken.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Shoulder Throw",
+        "input": "{close}, :b: {or} :f:+[MP] {or} [HP]"
+      },
+      {
+        "name": "Hell Wheel",
+        "input": "{close}, :b: {or} :f:+[MK] {or} [HK]"
+      },
+      {
+        "name": "Jigoku Fusha",
+        "input": "{inAirAndClose}, :b: {or} :f:+[MP] {or} [HP]"
+      }
+    ],
+    "{uniqueAttacks}": [
+      {
+        "name": "Inazuma Kick",
+        "input": ":f:+[MK]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Hadoken",
+        "input": ":qcf:+[P]"
+      },
+      {
+        "name": "Shoryuken",
+        "input": ":dp:+[P]"
+      },
+      {
+        "name": "Tatsumaki Senpukyaku",
+        "input": ":qcb:+[K] ({upTo4x})"
+      },
+      {
+        "name": "Zenpo Tenshin",
+        "input": ":qcb:+[P]"
+      }
+    ],
+    "{superCombos}": [
+      {
+        "name": "Shoryureppa",
+        "input": ":qcf::d::df:+[P]"
+      },
+      {
+        "name": "Shinryuken",
+        "input": ":qcf::d::df:+[K] ({tapPunch} {forMoreHits})"
+      }
+    ]
+  }
+}
