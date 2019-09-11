@@ -1,69 +1,69 @@
 {
-	"names": {
-		"default": {
-			"roman": "Evil Ryu"
-		},
-		"japan": {
-			"roman": "Evil Ryu",
-			"original": "殺意の波動に目覚めたリュウ"
-		}
-	},
-	"images": {
-		"face": "evilryu.webp"
-	},
-	"moves": {
-		"{normalThrows}": [
-			{
-				"name": "Shoulder Throw",
-				"input": "{close}, :b: {or} :f:+[MP] {or} [HP]"
-			},
-			{
-				"name": "Somersault Throw",
-				"input": "{close}, :b: {or} :f:+[MK] {or} [HK]"
-			}
-		],
-		"{uniqueAttacks}": [
-			{
-				"name": "Senpukyaku",
-				"input": ":f:+[MK]"
-			}
-		],
-		"{specialMoves}": [
-			{
-				"name": "Hadoken",
-				"input": ":qcf:+[P]"
-			},
-			{
-				"name": "Shoryuken",
-				"input": ":dp:+[P]"
-			},
-			{
-				"name": "Tatsumaki Senpukyaku",
-				"input": ":qcb:+[K] ({upTo3x})"
-			},
-			{
-				"name": "Ashura Senku",
-				"input": ":dp: {or} :rdp:+[LP]+[MP]+[HP] {or} [LK]+[MK]+[HK]"
-			}
-		],
-		"{superCombos}": [
-			{
-				"name": "Shinku Hadoken",
-				"input": ":qcf::qcf:+[P]"
-			},
-			{
-				"name": "Shinku Tatsumaki Senpukyaku",
-				"input": ":qcb::qcb:+[K] ({airOK})s"
-			},
-			{
-				"name": "Messatsu Goshoryu",
-				"input": ":qcf::d::df:+[K]"
-			},
-			{
-				"name": "Shun Goku Satsu",
-				"input": "[LP] > [LP] > :f: > [LK] > [HP]",
-				"extraInfo": "{level3}"
-			}
-		]
-	}
+  "names": {
+    "default": {
+      "roman": "Evil Ryu"
+    },
+    "japan": {
+      "roman": "Evil Ryu",
+      "original": "殺意の波動に目覚めたリュウ"
+    }
+  },
+  "images": {
+    "face": "evilryu.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Shoulder Throw",
+        "input": "{close}, :b: {or} :f:+[MP] {or} [HP]"
+      },
+      {
+        "name": "Somersault Throw",
+        "input": "{close}, :b: {or} :f:+[MK] {or} [HK]"
+      }
+    ],
+    "{uniqueAttacks}": [
+      {
+        "name": "Senpukyaku",
+        "input": ":f:+[MK]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Hadoken",
+        "input": ":qcf:+[P]"
+      },
+      {
+        "name": "Shoryuken",
+        "input": ":dp:+[P]"
+      },
+      {
+        "name": "Tatsumaki Senpukyaku",
+        "input": ":qcb:+[K] ({upTo3x})"
+      },
+      {
+        "name": "Ashura Senku",
+        "input": ":dp: {or} :rdp:+[LP]+[MP]+[HP] {or} [LK]+[MK]+[HK]"
+      }
+    ],
+    "{superCombos}": [
+      {
+        "name": "Shinku Hadoken",
+        "input": ":qcf::qcf:+[P]"
+      },
+      {
+        "name": "Shinku Tatsumaki Senpukyaku",
+        "input": ":qcb::qcb:+[K] ({airOK})s"
+      },
+      {
+        "name": "Messatsu Goshoryu",
+        "input": ":qcf::d::df:+[K]"
+      },
+      {
+        "name": "Shun Goku Satsu",
+        "input": "[LP] > [LP] > :f: > [LK] > [HP]",
+        "extraInfo": "{level3}"
+      }
+    ]
+  }
 }
