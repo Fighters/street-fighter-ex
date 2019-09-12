@@ -23,7 +23,7 @@
       },
       {
         "name": "Shuki",
-        "input": "{inAirAndClose}, :b: {or} :f:+[MP] {or} [HP]"
+        "input": "{inAirAndClose}, :b: {or} :f:+[MP] {or} [HP] {or} [MK] {or} [HK]"
       }
     ],
     "{uniqueAttacks}": [
