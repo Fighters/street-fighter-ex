@@ -1,0 +1,76 @@
+{
+  "names": {
+    "default": {
+      "roman": "Garuda"
+    },
+    "japan": {
+      "roman": "Garuda",
+      "original": "ガルダ"
+    }
+  },
+  "images": {
+    "face": "garuda.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Satsuga",
+        "input": "{close}, :b: {or} :f:+[MP] {or} [HP]"
+      },
+      {
+        "name": "Shouki",
+        "input": "{close}, :b: {or} :f:+[MK] {or} [HK]"
+      },
+      {
+        "name": "Shuki",
+        "input": "{inAirAndClose}, :b: {or} :f:+[MP] {or} [HP]"
+      }
+    ],
+    "{uniqueAttacks}": [
+      {
+        "name": "Zanki",
+        "input": ":f:+[HP]"
+      },
+      {
+        "name": "Kyoja",
+        "input": ":f:+[HK]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Shuga",
+        "input": ":qcf:+[P]"
+      },
+      {
+        "name": "Kizan",
+        "input": ":dp:+[P]"
+      },
+      {
+        "name": "Raiga",
+        "input": ":dp:+[K]"
+      },
+      {
+        "name": "Jazan",
+        "input": ":rdp:+[P]"
+      },
+      {
+        "name": "Gouga",
+        "input": ":hcf:+[K]"
+      },
+      {
+        "name": "Bu",
+        "input": ":dp:+[LP]+[MP]+[HP]"
+      }
+    ],
+    "{superCombos}": [
+      {
+        "name": "Kiensho",
+        "input": ":qcf::d::df:+[P]"
+      },
+      {
+        "name": "Kienbu",
+        "input": ":qcb::qcb:+[P] ({airOK})"
+      }
+    ]
+  }
+}
