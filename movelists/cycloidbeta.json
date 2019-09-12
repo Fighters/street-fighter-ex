@@ -1,0 +1,72 @@
+{
+  "names": {
+    "default": {
+      "roman": "Cycloid Beta"
+    },
+    "japan": {
+      "roman": "Cycloid Beta",
+      "original": "サイクロイドβ"
+    }
+  },
+  "images": {
+    "face": "cycloidbeta.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Beta Kuteikaku",
+        "input": "{close}, :b: {or} :f:+[MP] {or} [HP]"
+      },
+      {
+        "name": "Beta Tsukami Hiza Kick",
+        "input": "{close}, :b: {or} :f:+[MK] {or} [HK]"
+      }
+    ],
+    "{uniqueAttacks}": [
+      {
+        "name": "Beta Senpukyaku",
+        "input": ":f:+[MK]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Beta Tatsumaki Senpukyaku",
+        "input": ":qcf:+[K]"
+      },
+      {
+        "name": "Beta Hienshu",
+        "input": ":qcb:+[K]"
+      },
+      {
+        "name": "Beta Shoot Upper",
+        "input": ":dp:+[P]"
+      },
+      {
+        "name": "Beta Purim Kick",
+        "input": ":dp:+[K]"
+      },
+      {
+        "name": "Beta Justice Fist",
+        "input": ":rdp:+[P]"
+      }
+    ],
+    "{superCombos}": [
+      {
+        "name": "Beta Death Trump",
+        "input": ":qcf::d::df:+[P]"
+      },
+      {
+        "name": "Beta Kiensho",
+        "input": ":qcf::d::df:+[K]"
+      },
+      {
+        "name": "Beta Shinku Tatsumaki Senpukyaku",
+        "input": ":qcb::qcb:+[K]"
+      },
+      {
+        "name": "Beta Garyu Messhu",
+        "input": "{inAir}, :qcf::qcf:+[K]"
+      }
+    ]
+  }
+}
