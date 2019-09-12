@@ -33,7 +33,7 @@
       },
       {
         "name": "Tenmakujinkyaku",
-        "input": "{duringForwardJump}, {atJumpApex} :d:+[MK]"
+        "input": "{inAir}, :d:+[MK]"
       }
     ],
     "{specialMoves}": [
