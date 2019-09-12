@@ -1,0 +1,56 @@
+{
+  "names": {
+    "default": {
+      "roman": "Allen"
+    },
+    "japan": {
+      "roman": "Allen",
+      "original": "アレン"
+    }
+  },
+  "images": {
+    "face": "allen.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Throwing Technique",
+        "input": "{close}, :b: {or} :f:+[MP] {or} [HP]"
+      }
+    ],
+    "{uniqueAttacks}": [
+      {
+        "name": "Smash Kick",
+        "input": ":f:+[MK]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Soul Force",
+        "input": ":qcf:+[P]"
+      },
+      {
+        "name": "Rising Dragon",
+        "input": ":dp:+[P]"
+      },
+      {
+        "name": "Justice Fist",
+        "input": ":rdp:+[P]"
+      },
+      {
+        "name": "Vaulting Kick",
+        "input": "{close}, :hcb:+[K]"
+      }
+    ],
+    "{superCombos}": [
+      {
+        "name": "Fire Force",
+        "input": ":qcf::qcf:+[P]"
+      },
+      {
+        "name": "Triple Break",
+        "input": ":qcf::qcf:+[K]"
+      }
+    ]
+  }
+}
