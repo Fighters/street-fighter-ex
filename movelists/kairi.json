@@ -1,0 +1,64 @@
+{
+  "names": {
+    "default": {
+      "roman": "Kairi"
+    },
+    "japan": {
+      "roman": "Kairi",
+      "original": "カイリ"
+    }
+  },
+  "images": {
+    "face": "kairi.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Kuteikaku",
+        "input": "{close}, :b: {or} :f:+[MP] {or} [HP]"
+      },
+      {
+        "name": "Reverse Hell Wheel",
+        "input": "{close}, :b: {or} :f:+[MK] {or} [HK]"
+      }
+    ],
+    "{uniqueAttacks}": [
+      {
+        "name": "Ryobu",
+        "input": ":f:+[MK]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Jinki Hatsudo",
+        "input": ":qcf:+[P]"
+      },
+      {
+        "name": "Maryu Rekko",
+        "input": ":dp:+[P]"
+      },
+      {
+        "name": "Mouryo Kasen",
+        "input": ":qcb:+[K] ({upTo3x})"
+      }
+    ],
+    "{superCombos}": [
+      {
+        "name": "Sairo Kyoshu",
+        "input": ":qcb::qcb:+[P]"
+      },
+      {
+        "name": "Shinki Hatsudo",
+        "input": "{inAir}, :qcf::qcf:+[P]"
+      },
+      {
+        "name": "Garyu Messhu",
+        "input": "{inAir}, :qcf::qcf:+[K]"
+      },
+      {
+        "name": "Kyoja Renbu",
+        "input": "[LP] > [LP] > :f: > [LK] > [HP]"
+      }
+    ]
+  }
+}
