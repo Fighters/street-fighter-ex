@@ -1,0 +1,66 @@
+{
+  "names": {
+    "default": {
+      "roman": "Darun"
+    },
+    "japan": {
+      "roman": "Darun",
+      "original": "ダラン"
+    }
+  },
+  "images": {
+    "face": "darun.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Body Slam",
+        "input": "{close}, :b: {or} :f:+[MP] {or} [HP]"
+      },
+      {
+        "name": "German Suplex",
+        "input": "{close}, :b: {or} :f:+[MK] {or} [HK]"
+      },
+      {
+        "name": "Fall Ganjis DDT",
+        "input": "{inAirAndClose}, :b: {or} :f:+[MP] {or} [HP]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Lariat",
+        "input": ":dp:+[P]"
+      },
+      {
+        "name": "Ganjis DDT",
+        "input": ":dp:+[K]"
+      },
+      {
+        "name": "Darun Catch",
+        "input": ":rdp:+[P]"
+      },
+      {
+        "name": "Brahma Bomb",
+        "input": "{close}, :360:+[P]"
+      },
+      {
+        "name": "Indra Bridge",
+        "input": "{close}, :360:+[K]"
+      }
+    ],
+    "{superCombos}": [
+      {
+        "name": "Twilight Lariat",
+        "input": ":qcf::qcf:+[P]"
+      },
+      {
+        "name": "Power Indra Bridge",
+        "input": ":qcb::qcb:+[K]"
+      },
+      {
+        "name": "Super Darun Bomb",
+        "input": "{close}, :360::360:+[P]"
+      }
+    ]
+  }
+}
