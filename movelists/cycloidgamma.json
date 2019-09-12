@@ -1,0 +1,88 @@
+{
+  "names": {
+    "default": {
+      "roman": "Cycloid Gamma"
+    },
+    "japan": {
+      "roman": "Cycloid Gamma",
+      "original": "サイクロイドγ"
+    }
+  },
+  "images": {
+    "face": "cycloidgamma.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Gamma Shoulder Throw",
+        "input": "{close}, :b: {or} :f:+[MP] {or} [HP]"
+      },
+      {
+        "name": "Gamma Death Tower",
+        "input": "{close}, :b: {or} :f:+[MK] {or} [HK]"
+      },
+      {
+        "name": "Gamma Dancing Wind",
+        "input": "{inAirAndClose}, :b: {or} :f:+[MP] {or} [HP]"
+      },
+      {
+        "name": "Gamma Flying Buster Drop",
+        "input": "{inAirAndClose}, :b: {or} :f:+[MK] {or} [HK]"
+      }
+    ],
+    "{uniqueAttacks}": [
+      {
+        "name": "Gamma Heavy Stab Kick",
+        "input": ":b: {or} :f:+[HK]"
+      },
+      {
+        "name": "Gamma Tenmakujinkyaku",
+        "input": "{inAir}, :d:+[MK]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Gamma Hyakuretsukyaku",
+        "input": "{tapKick}"
+      },
+      {
+        "name": "Gamma Skullo Crusher",
+        "input": "{charge} :b: :f:+[P]"
+      },
+      {
+        "name": "Gamma Sliding Arrow",
+        "input": "{charge} :b: :f:+[K]"
+      },
+      {
+        "name": "Gamma Head Press",
+        "input": "{charge} :d: :u:+[P]"
+      },
+      {
+        "name": "Gamma Flash Kick",
+        "input": "{charge} :d: :u:+[K]"
+      },
+      {
+        "name": "Gamma Final Punch",
+        "input": "{hold} [LP]+[MP]+[HP] {or} [LK]+[MK]+[HK] {then} {release}"
+      }
+    ],
+    "{superCombos}": [
+      {
+        "name": "Gamma Gouga",
+        "input": "{charge} :b: :f::b::f:+[P]"
+      },
+      {
+        "name": "Gamma Knee Press Nightmare",
+        "input": "{charge} :b: :f::b::f:+[K]"
+      },
+      {
+        "name": "Gamma Resar Cana",
+        "input": "{charge} :db: :df::db::uf:+[P]"
+      },
+      {
+        "name": "Gamma Double Flash Kick",
+        "input": "{charge} :db: :df::db::uf:+[K]"
+      }
+    ]
+  }
+}
