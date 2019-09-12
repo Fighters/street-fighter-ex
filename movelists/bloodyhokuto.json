@@ -1,0 +1,82 @@
+{
+  "names": {
+    "default": {
+      "roman": "Bloody Hokuto"
+    },
+    "japan": {
+      "roman": "Chi no Fūin o Tokareta Hokuto",
+      "original": "血の封印を解かれたほくと"
+    }
+  },
+  "images": {
+    "face": "bloodyhokuto.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Kyaku",
+        "input": "{close}, :b: {or} :f:+[MP] {or} [HP]"
+      },
+      {
+        "name": "Keishukou",
+        "input": "{close}, :b: {or} :f:+[MK] {or} [HK]"
+      }
+    ],
+    "{uniqueAttacks}": [
+      {
+        "name": "Chu-Hoh",
+        "input": ":f:+[HP]"
+      },
+      {
+        "name": "Gai-Shu",
+        "input": ":f:+[HK]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Chugeki-Hoh",
+        "input": ":qcf:+[P]"
+      },
+      {
+        "name": "Shorin-Geki",
+        "input": ":qcb:+[P]",
+        "after": "Chugeki-Hoh"
+      },
+      {
+        "name": "Shinkyaku-Geki",
+        "input": ":qcb:+[K]"
+      },
+      {
+        "name": "Shorin-Geki",
+        "input": ":qcb:+[P]",
+        "after": "Shinkyaku-Geki"
+      },
+      {
+        "name": "Shorin-Geki",
+        "input": ":qcb:+[P]"
+      },
+      {
+        "name": "Ryusui",
+        "input": "{close}, :360:+[P]"
+      }
+    ],
+    "{superCombos}": [
+      {
+        "name": "Rensho-Geki",
+        "input": ":qcf::qcf:+[P]"
+      },
+      {
+        "name": "Kiren-Eki",
+        "input": ":qcb::qcb:+[P] ({hold} [P] {toCharge})"
+      },
+      {
+        "name": "Kyakuhougi",
+        "input": ":qcb::qcb:+[K]"
+      },
+      {
+        "name": "Renbu",
+        "input": "[LP] > [LP] > :f: > [LK] > [HP]"
+      }
+    ]
+  }
+}
