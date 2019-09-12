@@ -1,0 +1,64 @@
+{
+  "names": {
+    "default": {
+      "roman": "Blair"
+    },
+    "japan": {
+      "roman": "Blair",
+      "original": "ブレア"
+    }
+  },
+  "images": {
+    "face": "blair.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Neck Throw",
+        "input": "{close}, :b: {or} :f:+[MP] {or} [HP]"
+      },
+      {
+        "name": "Tsukami Hiza Kick",
+        "input": "{close}, :b: {or} :f:+[MK] {or} [HK]"
+      }
+    ],
+    "{uniqueAttacks}": [
+      {
+        "name": "Tegatana",
+        "input": ":f:+[MP]"
+      },
+      {
+        "name": "Step Side Kick",
+        "input": ":f:+[MK]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Sliding Arrow",
+        "input": ":qcf:+[K]"
+      },
+      {
+        "name": "Lightning Knee",
+        "input": ":dp:+[K]"
+      },
+      {
+        "name": "Shoot Upper",
+        "input": ":dp:+[P]"
+      },
+      {
+        "name": "Shoot Kick",
+        "input": ":qcb:+[K] ({upTo3x})"
+      }
+    ],
+    "{superCombos}": [
+      {
+        "name": "Mirage Combo Kick",
+        "input": ":qcf::qcf:+[P]"
+      },
+      {
+        "name": "Spin Side Shoot",
+        "input": ":qcf::qcf:+[K]"
+      }
+    ]
+  }
+}
