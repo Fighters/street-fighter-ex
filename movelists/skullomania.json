@@ -32,6 +32,11 @@
         "input": ":f::f: ({hold} :b: {toCancel})"
       },
       {
+        "name": "Skullo Tackle",
+        "input": "{doNothing}",
+        "after": "Skullo Dash"
+      },
+      {
         "name": "Skullo Back Flip",
         "input": ":b::b:"
       },

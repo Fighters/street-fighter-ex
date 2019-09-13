@@ -47,7 +47,8 @@
     "{superCombos}": [
       {
         "name": "Crazy Jack",
-        "input": "{charge} :b: :f::b::f:+[P]"
+        "input": "{charge} :b: :f::b::f:+[P]",
+        "extraInfo": "{hold} [K] {toChangeAttack}"
       },
       {
         "name": "Raging Buffalo",
@@ -58,5 +59,9 @@
         "input": ":qcb::qcb:+[P]"
       }
     ]
+  },
+  "custom_strings": {
+    "english": [{ "toChangeAttack": "to change the attacks" }],
+    "portuguese": [{ "toChangeAttack": "para alterar os ataques" }]
   }
 }
