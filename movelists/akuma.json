@@ -47,7 +47,7 @@
       },
       {
         "name": "Zanku Hadoken",
-        "input": "{inAir} :qcf:+[P]"
+        "input": "{inAir}, :qcf:+[P]"
       },
       {
         "name": "Goshoryuken",
@@ -62,8 +62,12 @@
         "input": ":qcb:+[P]"
       },
       {
-        "name": "Ashura Senku",
-        "input": ":dp: {or} :rdp:+[LP]+[MP]+[HP] {or} [LK]+[MK]+[HK]"
+        "name": "Ashura Senku (Forward)",
+        "input": ":dp:+[LP]+[MP]+[HP] {or} [LK]+[MK]+[HK]"
+      },
+      {
+        "name": "Ashura Senku (Back)",
+        "input": ":rdp:+[LP]+[MP]+[HP] {or} [LK]+[MK]+[HK]"
       }
     ],
     "{superCombos}": [
@@ -77,7 +81,7 @@
       },
       {
         "name": "Tenma Gozanku",
-        "input": "{inAir} :qcf::qcf:+[P]"
+        "input": "{inAir}, :qcf::qcf:+[P]"
       },
       {
         "name": "Shun Goku Satsu",
