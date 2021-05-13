@@ -1,0 +1,269 @@
+[
+    {
+        "name": "Ryu",
+        "repository": "",
+        "movelist": "ryu.json",
+        "names": [
+            {
+                "region": "japan",
+                "name": "リュウ"
+            }
+        ]
+    },
+    {
+        "name": "Ken",
+        "repository": "",
+        "movelist": "ken.json",
+        "names": [
+            {
+                "region": "japan",
+                "name": "ケン・マスターズ"
+            }
+        ]
+    },
+    {
+        "name": "Chun-Li",
+        "repository": "",
+        "movelist": "chunli.json",
+        "names": [
+            {
+                "region": "japan",
+                "name": "チュンリー"
+            }
+        ]
+    },
+    {
+        "name": "M. Bison",
+        "also-known-as": [
+            "Dictator",
+            "Vega"
+        ],
+        "repository": "",
+        "movelist": "mbison.json",
+        "names": [
+            {
+                "region": "japan",
+                "name": "ベガ"
+            }
+        ]
+    },
+    {
+        "name": "Akuma",
+        "also-known-as": [
+            "Gouki"
+        ],
+        "repository": "",
+        "movelist": "Akuma",
+        "names": [
+            {
+                "region": "japan",
+                "name": "ゴウキ"
+            }
+        ]
+    },
+    {
+        "name": "Zangief",
+        "repository": "",
+        "movelist": "zangief.json",
+        "names": [
+            {
+                "region": "japan",
+                "name": "ザンギエフ"
+            }
+        ]
+    },
+    {
+        "name": "Evil Ryu",
+        "also-known-as": [
+            "Satsui no Hado ni Mezameta Ryu"
+        ],
+        "repository": "",
+        "movelist": "evilRyu.json",
+        "names": [
+            {
+                "region": "japan",
+                "name": "殺意の波動に目覚めたリュウ"
+            }
+        ]
+    },
+    {
+        "name": "Guile",
+        "repository": "",
+        "movelist": "guile.json",
+        "names": [
+            {
+                "region": "japan",
+                "name": "ガイル"
+            }
+        ]
+    },
+    {
+        "name": "Dhalsim",
+        "repository": "",
+        "movelist": "dhalsim.json",
+        "names": [
+            {
+                "region": "japan",
+                "name": "ダルシム"
+            }
+        ]
+    },
+    {
+        "name": "Sakura",
+        "repository": "",
+        "movelist": "sakura.json",
+        "names": [
+            {
+                "region": "japan",
+                "name": "春日野 さくら"
+            }
+        ]
+    },
+    {
+        "name": "Hokuto",
+        "repository": "",
+        "movelist": "hokuto.json",
+        "names": [
+            {
+                "region": "japan",
+                "name": "ほくと"
+            }
+        ]
+    },
+    {
+        "name": "D. Dark",
+        "repository": "",
+        "movelist": "ddark.json",
+        "names": [
+            {
+                "region": "japan",
+                "name": "ドクトリン・ダーク"
+            }
+        ]
+    },
+    {
+        "name": "Pullum",
+        "repository": "",
+        "movelist": "pullum.json",
+        "names": [
+            {
+                "region": "japan",
+                "name": "プルム・プルナ"
+            }
+        ]
+    },
+    {
+        "name": "C. Jack",
+        "repository": "",
+        "movelist": "cjack.json",
+        "names": [
+            {
+                "region": "japan",
+                "name": "クラッカー・ジャック"
+            }
+        ]
+    },
+    {
+        "name": "Skullomania",
+        "repository": "",
+        "movelist": "skullomania.json",
+        "names": [
+            {
+                "region": "japan",
+                "name": "スカロマニア"
+            }
+        ]
+    },
+    {
+        "name": "Allen",
+        "repository": "",
+        "movelist": "allen.json",
+        "names": [
+            {
+                "region": "japan",
+                "name": "アレン・スナイダー"
+            }
+        ]
+    },
+    {
+        "name": "Blair",
+        "repository": "",
+        "movelist": "blair.json",
+        "names": [
+            {
+                "region": "japan",
+                "name": "ブレア・デイム"
+            }
+        ]
+    },
+    {
+        "name": "Kairi",
+        "repository": "",
+        "movelist": "kairi.json",
+        "names": [
+            {
+                "region": "japan",
+                "name": "カイリ"
+            }
+        ]
+    },
+    {
+        "name": "Darun",
+        "repository": "",
+        "movelist": "darun.json",
+        "names": [
+            {
+                "region": "japan",
+                "name": "ダラン・マイスター"
+            }
+        ]
+    },
+    {
+        "name": "Bloody Hokuto",
+        "also-known-as": [
+            "Evil Hokuto",
+            "Chi no Fūin o Tokareta Hokuto"
+        ],
+        "repository": "",
+        "movelist": "bloodyhokuto.json",
+        "names": [
+            {
+                "region": "japan",
+                "name": "ダラン・マイスター"
+            }
+        ]
+    },
+    {
+        "name": "Cycloid Beta",
+        "repository": "",
+        "movelist": "cycloidbeta.json",
+        "names": [
+            {
+                "region": "japan",
+                "name": "サイクロイドβ"
+            }
+        ]
+    },
+    {
+        "name": "Cycloid Gamma",
+        "repository": "",
+        "movelist": "cycloidgamma.json",
+        "names": [
+            {
+                "region": "japan",
+                "name": "サイクロイドγ"
+            }
+        ]
+    },
+    {
+        "name": "Garuda",
+        "repository": "",
+        "movelist": "garuda.json",
+        "names": [
+            {
+                "region": "japan",
+                "name": "ガルダ"
+            }
+        ]
+    }
+]
