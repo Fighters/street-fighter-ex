@@ -1,24 +1,24 @@
 {
-  "romans": {
-    "regions": [
-      {
-        "region": "default",
-        "roman": "Street Fighter EX"
-      },
-      {
-        "region": "japan",
-        "roman": "Street Fighter EX",
-        "original": "ストリートファイターEX"
-      }
-    ],
-    "also-known-as": ["sfex", "sf ex", "ex plus alpha", "plus alpha"]
-  },
+  "names": [
+		{
+			"region": "default",
+			"roman": "Street Fighter EX"
+		},
+		{
+			"region": "japan",
+			"roman": "Street Fighter EX",
+			"original": "ストリートファイターEX"
+		}
+	],
+	"also-known-as": [
+    "sfex", "sf ex", "ex plus alpha", "plus alpha"
+	],
   "platforms": [
     {
-      "platform": "Arcade",
+      "name": "Arcade",
       "regions": [
         {
-          "region": "Japan",
+          "name": "Japan",
           "roman": "Street Fighter EX",
           "original": "ストリートファイターEX",
           "releaseDate": "12-19-1996",
@@ -26,21 +26,21 @@
           "publisher": "Capcom"
         },
         {
-          "region": "United States",
+          "name": "United States",
           "roman": "Street Fighter EX",
           "releaseDate": "12-19-1996",
           "developer": "Arika",
           "publisher": "Capcom"
         },
         {
-          "region": "Europe",
+          "name": "Europe",
           "roman": "Street Fighter EX",
           "releaseDate": "12-19-1996",
           "developer": "Arika",
           "publisher": "Capcom"
         },
         {
-          "region": "Japan",
+          "name": "Japan",
           "roman": "Street Fighter EX Plus",
           "original": "ストリートファイターEX plus",
           "releaseDate": "03-03-1997",
@@ -48,7 +48,7 @@
           "publisher": "Capcom"
         },
         {
-          "region": "United States",
+          "name": "United States",
           "roman": "Street Fighter EX Plus",
           "releaseDate": "03-03-1997",
           "developer": "Arika",
@@ -57,10 +57,10 @@
       ]
     },
     {
-      "platform": "PlayStation",
+      "name": "PlayStation",
       "regions": [
         {
-          "region": "United States",
+          "name": "United States",
           "roman": "Street Fighter EX Plus Alpha",
           "releaseDate": "09-30-1997",
           "developer": "Arika",
@@ -68,7 +68,7 @@
           "coverFront": "ps1-us-front.webp"
         },
         {
-          "region": "Europe",
+          "name": "Europe",
           "roman": "Street Fighter EX Plus Alpha",
           "releaseDate": "11-28-1997",
           "developer": "Arika",
@@ -76,7 +76,7 @@
           "coverFront": "ps1-eu-front.webp"
         },
         {
-          "region": "Japan",
+          "name": "Japan",
           "roman": "Street Fighter EX Plus Alpha",
           "original": "ストリートファイターEX plus α",
           "releaseDate": "07-17-1997",
